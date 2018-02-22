@@ -1,0 +1,20 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "outDir": "../dist",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "types" : [ "node", "webdriverio", "chai", "jasmine" ]
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "typings",
+    "../node_modules",
+    "../node_modules/@types/jasmine",
+    "../../../../node_modules/@types/jasmine"
+  ]
+}
